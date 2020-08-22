@@ -18,5 +18,6 @@ last-git-commit = "0.1.1"
 
 [workspace]
 members = [
-    "libperif"
+    "libperif",
+    "perif-cli"
 ]
