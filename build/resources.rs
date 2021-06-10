@@ -8,7 +8,7 @@ pub fn generate_resources() {
 
     let exists = Command::new("which").arg(COMMAND).output().unwrap();
     if !exists.status.success() {
-        panic!(format!("Command '{}' not found", COMMAND));
+        panic!("Command '{}' not found", COMMAND);
     }
 
     let resources = Command::new(COMMAND)
@@ -17,7 +17,7 @@ pub fn generate_resources() {
     .unwrap();
 
     if !resources.status.success() {
-        panic!(format!("Failed to generate resources: {}", String::from_utf8_lossy(&resources.stderr)))
+        panic!("Failed to generate resources: {}", String::from_utf8_lossy(&resources.stderr))
     }
 
 }

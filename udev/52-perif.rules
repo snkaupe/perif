@@ -1,13 +1,26 @@
+# Corsair Void Wireless
 SUBSYSTEM=="hidraw", ATTRS{idVendor}=="1b1c", ATTRS{idProduct}=="1b27", MODE="0666"
+# Corsair Void Pro
 SUBSYSTEM=="hidraw", ATTRS{idVendor}=="1b1c", ATTRS{idProduct}=="0a14", MODE="0666"
+# Corsair Void Pro R2
 SUBSYSTEM=="hidraw", ATTRS{idVendor}=="1b1c", ATTRS{idProduct}=="0a16", MODE="0666"
+# Corsair Void Pro USB
 SUBSYSTEM=="hidraw", ATTRS{idVendor}=="1b1c", ATTRS{idProduct}=="0a17", MODE="0666"
+# Corsair Void Pro Wireless
 SUBSYSTEM=="hidraw", ATTRS{idVendor}=="1b1c", ATTRS{idProduct}=="0a1a", MODE="0666"
+# Corsair Void RGB USB
 SUBSYSTEM=="hidraw", ATTRS{idVendor}=="1b1c", ATTRS{idProduct}=="1b2a", MODE="0666"
+# Corsair Void RGB USB 2
 SUBSYSTEM=="hidraw", ATTRS{idVendor}=="1b1c", ATTRS{idProduct}=="1b23", MODE="0666"
+# Corsair Void RGB Wired
 SUBSYSTEM=="hidraw", ATTRS{idVendor}=="1b1c", ATTRS{idProduct}=="1b1c", MODE="0666"
+# Sony Dualshock 4 Wireless
 SUBSYSTEM=="hidraw", ATTRS{idVendor}=="054c", ATTRS{idProduct}=="0ba0", MODE="0666"
+# Sony Dualshock 4
 SUBSYSTEM=="hidraw", ATTRS{idVendor}=="054c", ATTRS{idProduct}=="05c4", MODE="0666"
+# Sony Dualshock 4
 SUBSYSTEM=="hidraw", ATTRS{idVendor}=="054c", ATTRS{idProduct}=="09cc", MODE="0666"
+# Wacom Intuos BT M (USB)
 SUBSYSTEM=="hidraw", ATTRS{idVendor}=="056a", ATTRS{idProduct}=="0378", MODE="0666"
+# Wacom Intuos BT M
 SUBSYSTEM=="hidraw", ATTRS{idVendor}=="056a", ATTRS{idProduct}=="0379", MODE="0666"

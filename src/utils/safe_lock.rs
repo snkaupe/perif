@@ -21,7 +21,7 @@ pub fn safe_lock<R, F, T>(state: &Arc<Mutex<T>>, f: F) -> R
                 drop(lock);
                 break;
             },
-            Err(_) => std::sync::atomic::spin_loop_hint()
+            Err(_) => std::hint::spin_loop()
 
         }
 
